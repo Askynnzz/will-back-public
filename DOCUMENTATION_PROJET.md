@@ -72,7 +72,7 @@ Le projet repose sur une "Modern Data Stack" assurant performance, typage fort e
 | **Paiement** | **Stripe Connect** | Gestion complexe des flux financiers (split payments, payouts). |
 | **Maps** | **Leaflet** / **GeoJSON** | Cartographie interactive open-source et performante. |
 | **Realtime** | **Pusher** | Notifications instantanées et messagerie en temps réel. |
-| **Stockage** | **AWS S3** | Stockage scalable et sécurisé des photos des logements. |
+| **Stockage** | **MinIO S3** | Stockage scalable et sécurisé des photos des logements. |
 
 ### 📐 Diagramme d'Architecture (Simplifié)
 
@@ -95,7 +95,7 @@ graph TD
     
     subgraph "Data Layer"
         DB[(MySQL Database)]
-        S3[(AWS S3 Storage)]
+        S3[(MinIO S3 Storage)]
     end
     
     subgraph "External Services"
