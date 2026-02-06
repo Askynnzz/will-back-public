@@ -126,7 +126,7 @@ graph TD
 ### 2. Gestion des Annonces (Listings)
 -   **CRUD Complet** : Création multi-étapes, modification, suppression.
 -   **Géolocalisation** : Coordonnées (Lat/Lng), sélection sur carte, ville.
--   **Médias** : Upload de photos multiples sur AWS S3.
+-   **Médias** : Upload de photos multiples sur S3.
 -   **Tarification Avancée** :
     -   Prix de base.
     -   **Prix Saisonniers** : Définition de périodes spécifiques (Haute saison, Événements) avec prix personnalisés.
